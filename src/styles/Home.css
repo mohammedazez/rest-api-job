@@ -1,23 +1,33 @@
-
 /* Search style */
 .container-search {
-    background-color: grey;
+  background-color: #2b7fc3;
 }
 
 /* End Search style */
 
-
 /* Page API style */
 .container-pageapi {
-    background-color: white;
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /* End Page API style */
 
-
 /* Pagination style */
 .container-pagination {
-    background-color: blanchedalmond;
+  background-color: #2b7fc3;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
 /* End pagination style */

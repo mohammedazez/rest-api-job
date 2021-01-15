@@ -16,23 +16,30 @@ function Home() {
     <div>
       {/* Search */}
       <div className="container-search">
-        <h1>Job Description</h1>
+        <h1>Search Job</h1>
         <form>
+          {/* Description */}
           <input
             type="text"
             placeholder="Search by description"
             name="search description"
           />
+          {/* Location */}
           <input
             type="text"
             placeholder="Search by location"
             name="search location"
           />
-          <button type="submit">Submit</button>
+          {/* Time */}
+          <label>Choose a time:</label>
+          <select name="time" id="time">
+            <option value="fulltime">Full Time </option>
+            <option value="partime">Part Time</option>
+          </select>
+          <button type="submit" value="Submit">
+            Submit
+          </button>
         </form>
-        <h1>Location</h1>
-
-        <h1>Full time</h1>
       </div>
       {/* End Search */}
 
@@ -44,7 +51,16 @@ function Home() {
 
       {/* Pagination */}
       <div className="container-pagination">
-        <h1>This is for Pagination</h1>
+        <div className="pagination">
+          <a href="/#">&laquo;</a>
+          <a href="/#">1</a>
+          <a href="/#">2</a>
+          <a href="/#">3</a>
+          <a href="/#">4</a>
+          <a href="/#">5</a>
+          <a href="/#">6</a>
+          <a href="/#">&raquo;</a>
+        </div>
       </div>
       {/* End pagination */}
     </div>
