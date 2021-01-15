@@ -1,10 +1,8 @@
-import {combineReducers} from 'redux';
+import { combineReducers } from "redux";
 import joblist from "../redux/reducers/Joblist.reducers";
-import detail from "../redux/reducers/Detail.reducers"
 
-const rootReducers = combineReducers ({
-    joblist,
-    detail,
-})
+const rootReducers = combineReducers({
+  joblist,
+});
 
 export default rootReducers;
